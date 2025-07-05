@@ -2,14 +2,15 @@
 Quantum Band Diagram & DOS Visualizer
 This Python script processes simulation outputs (CSV files) from quantum well or heterostructure models and produces insightful visualizations including band diagrams, wavefunctions, and Density of States (DOS) plots.
 
-Code description
+# Code description
 Parses band structure and density profile data from band_data.csv and density_profile.csv.
 Extracts energy levels, wavefunctions, potentials, and Fermi energy.
 Computes and plots 1D Density of States at different spatial positions.
 Generates intuitive visual plots:
 Band diagram with potential, wavefunctions, and eigenenergies
 Local DOS curves at selected positions
-Input Files
+
+# Input Files
 Place these CSV files in the working directory:
 
 band_data.csv: Contains position-resolved potential, wavefunction, and energy data.
@@ -32,5 +33,5 @@ First few wavefunctions
 Corresponding eigenenergies
 DOS Plots across specified positions
 Inset plot highlighting zoomed-in band edge
-Notes
-DOS smoothing is applied using a Gaussian filter.
+# Notes
+DOS smoothing is applied using a Gaussian filter
