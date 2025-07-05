@@ -15,17 +15,15 @@ Place these CSV files in the working directory:
 
 band_data.csv: Contains position-resolved potential, wavefunction, and energy data.
 density_profile.csv: (Optional, currently unused) Contains carrier density profile.
-
-
 Parameters (in-script)
 You can adjust these directly in the script:
-
 num_ext: Number of regions/extensions (e.g., materials).
 m_DOS, m_conf: Effective mass parameters for DOS and confinement.
 mid_gap_energy: Used to separate valence and conduction states.
 eng_min_max: Energy window for DOS.
 points: Positions (in Å) at which DOS is evaluated.
-Output
+
+# Output
 Band Diagram with:
 Fermi level
 Potential
